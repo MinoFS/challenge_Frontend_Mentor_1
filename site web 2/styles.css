@@ -1,9 +1,6 @@
-.young-serif-regular {
-    font-family: "Young Serif", serif;
-    font-weight: 400;
-    font-style: normal;
-  }
-  
+/* Import de la police Inter */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
 body {
     display: flex;
     flex-direction: column;
@@ -11,13 +8,12 @@ body {
     align-items: center;
     background-color: hsl(0, 0%, 13%);
     color: white;
-    font-family: Arial, sans-serif;
+    font-family: "Inter", sans-serif; /* Correction */
     margin: 0;
     height: 100vh;
-    font-family: inter;
-  }
-  
-  .card {
+}
+
+.card {
     margin: 20px;
     padding: 50px;
     display: flex;
@@ -26,40 +22,40 @@ body {
     background-color: hsl(0, 0%, 27%);
     border-radius: 15px;
     width: 300px;
-  }
-  
-  .profile-picture {
+}
+
+.profile-picture {
     width: 100px;
     height: 100px;
     border-radius: 50%;
     margin-bottom: 15px;
-  }
-  
-  h1 {
+}
+
+h1 {
     margin: 0;
     font-size: 1.5rem;
-  }
-  
-  h2 {
+}
+
+h2 {
     color: hsl(75, 94%, 57%);
     font-size: 0.9rem;
     margin: 5px 0;
-  }
-  
-  p {
+}
+
+p {
     font-size: 14px;
     margin: 10px 0 20px;
     text-align: center;
-  }
-  
-  .social-links {
+}
+
+.social-links {
     display: flex;
     flex-direction: column;
     gap: 10px;
     width: 100%;
-  }
-  
-  .social-links a {
+}
+
+.social-links a {
     text-decoration: none;
     color: white;
     text-align: center;
@@ -68,21 +64,20 @@ body {
     border-radius: 5px;
     font-size: 0.9rem;
     transition: background-color 0.3s, color 0.3s;
-  }
-  
-  .social-links a:hover {
+}
+
+.social-links a:hover {
     background-color: hsl(75, 94%, 57%);
     color: hsl(0, 0%, 33%);
-  }
-  
-  .attribution {
+}
+
+.attribution {
     font-size: 0.8rem;
     text-align: center;
     margin-top: 20px;
-  }
-  
-  .attribution a {
+}
+
+.attribution a {
     color: hsl(228, 45%, 44%);
     text-decoration: none;
-  }
-  
+}
