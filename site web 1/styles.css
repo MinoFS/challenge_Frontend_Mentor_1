@@ -1,0 +1,87 @@
+body{
+    
+    font-family: "Outfit", serif;
+    background-color: hsl(30, 54%, 90%);
+    display: flex;
+    justify-content: center; 
+    align-items: center;   
+    flex-direction: column;
+}
+
+h1{
+  color: hsl(60, 2%, 19%);
+  font-family: "Young Serif", serif;
+}
+
+h2{
+    color: hsl(14, 45%, 36%);
+}
+
+h3 {
+    color: hsl(332, 51%, 32%);
+}
+
+li{
+    padding: 5px;
+    
+}
+
+.Preparation{
+    background-color: hsl(330, 100%, 98%);
+    padding: 20px;
+    border-radius: 25px;
+    font-family: "Outfit", serif;
+    
+}
+
+.gras{
+    font-weight: bold;
+}
+
+.contenue {
+   background-color: white;
+   width: 575px;
+   border-radius: 30px;
+   align-self: auto;
+   padding: 20px;
+   margin: 75px;
+   position: center;
+   
+}
+
+.image-omelette{
+    display: block;          
+    margin: 0 auto;  
+    height: 225px;
+    width: 550px;
+    border-radius: 40px;
+    padding: 20px;
+}
+
+
+  .table p {
+    display: flex;              
+    justify-content: flex-start; 
+    margin: 10px 0;            
+  }
+  
+  .label {
+    width: 200px;               
+    text-align: left;  
+    margin-left: 30px;         
+  }
+  
+  .value {
+    width: 150px;              
+    text-align: left;    
+    color: hsl(14, 45%, 36%);   
+    font-weight: bold;    
+  }
+
+  .attribution{
+    background-color: white;
+    width: 575px;
+    border-radius: 30px;
+    align-self: auto;
+    padding: 20px;
+  }
