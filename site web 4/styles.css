@@ -1,0 +1,168 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: "Hanken Grotesk", serif;
+    background-color: hsl(221, 100%, 96%);
+}
+
+.card{
+    display: flex;
+    background-color: hsl(0, 0%, 100%);
+    width: 600px;
+    height: 400px;
+    border-radius: 20px;
+    margin: 100px;
+}
+
+.card-result{
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(#7857ff , #2e2be9);
+    border-radius: 20px;
+}
+
+.card-summary{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 300px;
+}
+
+.Result {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 50%;
+    background: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    width: 150px;
+    height: 150px;
+    max-height: 100%;
+    max-width: 100%;
+    overflow: hidden; 
+    text-align: center;
+}
+
+.number-result {
+    font-size: 50px;
+    color: white;
+    margin: 0; 
+    font-weight: bold;
+}
+
+.number-total {
+    color: rgb(193, 196, 213);
+    font-size: 16px;
+    margin: 0;
+}
+.opinion-result{
+    color: white;
+}
+.paragraph-result{
+   
+    text-align: center;
+    width: 200px;
+    color: rgb(193, 196, 213);
+}
+.card-result h3 {
+    color: rgb(193, 196, 213);
+}
+
+.button{
+    padding: 15px;
+    text-align: center;
+    background-color: hsl(224, 30%, 27%);
+    width: 225px;
+    height: 20px;
+    border-radius: 30px;
+    color: white;
+    margin: 25px;
+    
+}
+.button:hover{
+    background: linear-gradient(#7857ff , #2e2be9);
+}
+
+.Reaction{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    text-align: center;
+    background-color: rgba(255, 87, 87, 0.1);
+    color: rgb(255, 87, 87);
+    width: 225px;
+    height: 20px;
+    border-radius: 15px;
+    margin: 5px;
+}
+
+
+.Memory{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    text-align: center;
+    background-color: rgba(255, 176, 31, 0.1);
+    color: rgb(255, 176, 31);
+    width: 225px;
+    height: 20px;
+    border-radius: 15px;
+    margin: 5px;
+    
+}
+
+.Visual{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    text-align: center;
+    background-color: rgba(17, 37, 212, 0.1);
+    color: rgb(17, 37, 212);
+    width: 225px;
+    height: 20px;
+    border-radius: 15px;
+    margin: 5px;
+   
+}
+.Verbal{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    text-align: center;
+    background-color: rgba(0, 189, 145, 0.1);
+    color: rgb(0, 189, 145);
+    width: 225px;
+    height: 20px;
+    border-radius: 15px;
+    margin: 5px;
+}
+.card-summary h3 {
+    text-align: left;
+    width: 85%; 
+    color: hsl(224, 30%, 27%);
+}
+
+.attribution {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    font-size: 17px; 
+    text-align: center; 
+    max-width: 100%;
+    overflow: hidden; 
+    height: 25px;
+    width: 450px;
+    background-color: white;
+    border-radius: 12px;
+}
+.attribution a { color: hsl(228, 45%, 44%); }
